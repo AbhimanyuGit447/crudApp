@@ -1,0 +1,12 @@
+<table>
+  <tr *ngFor="let user of users" >
+    <td>{{user.name}}</td>
+    <td>{{user.email}}</td>
+    <td>
+      <button (click)="editUser(user)" >EDIT button</button>
+      <button (click)="deleteUser(user.id)" >Delete button</button>
+    </td>
+  </tr>
+</table>
+
+<app-user-form [selectedUser]="selectedUser" (userSaved)="loadUsers()" ></app-user-form>

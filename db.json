@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "89105",
+      "name": "abhi",
+      "email": "abhi@gmail.com"
+    },
+    {
+      "id": "54720",
+      "name": "mickel",
+      "email": "mickel.ckls@yahoo.com"
+    },
+    {
+      "id": "48738",
+      "name": "chnagedName",
+      "email": "serieaCHANGED@gmail.com"
+    },
+    {
+      "id": "36119",
+      "name": "admin",
+      "email": "useradmin@gmail.com"
+    },
+    {
+      "id": "45998",
+      "name": "enginner",
+      "email": "software-enginner@gmail.com"
+    },
+    {
+      "id": "5192",
+      "name": "fakeuser",
+      "email": "any@gmail.com"
+    }
+  ]
+}

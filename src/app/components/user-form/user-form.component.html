@@ -1,0 +1,6 @@
+<form  [formGroup]="userForm" (ngSubmit)="SubmitForm()" >
+  <input type="hidden" formControlName="id" >
+  <input type="text" formControlName="name" placeholder="enter name" >
+  <input type="email" formControlName="email" placeholder="enter email" >
+  <button type="submit">{{isEditMode ? 'Update' : 'Add'}}</button>
+</form>
